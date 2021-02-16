@@ -1,1 +1,0 @@
-# Animal_living_environment_simulation
