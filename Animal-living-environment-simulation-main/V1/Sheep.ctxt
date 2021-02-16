@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Sheep
+comment0.text=\r\n\ A\ simple\ model\ of\ a\ sheep.\r\n\ Sheeps\ age,\ move,\ breed,\ and\ die.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\r\n\ @version\ 2016.02.29\ (2)\r\n
+comment1.params=randomAge\ field\ location
+comment1.target=Sheep(boolean,\ Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ sheep.\ A\ sheep\ may\ be\ created\ with\ age\r\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\r\n\ \r\n\ @param\ randomAge\ If\ true,\ the\ sheep\ will\ have\ a\ random\ age.\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=newSheeps
+comment2.target=void\ act(java.util.List)
+comment2.text=\r\n\ This\ is\ what\ the\ sheep\ does\ most\ of\ the\ time\ -\ it\ runs\ \r\n\ around.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age.\r\n\ @param\ newSheeps\ A\ list\ to\ return\ newly\ born\ sheeps.\r\n
+comment3.params=newSheeps
+comment3.target=void\ giveBirth(java.util.List)
+comment3.text=\r\n\ Check\ whether\ or\ not\ this\ sheep\ is\ to\ give\ birth\ at\ this\ step.\r\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\r\n\ @param\ newSheeps\ A\ list\ to\ return\ newly\ born\ sheeps.\r\n
+comment4.params=
+comment4.target=int\ getMaxAge()
+comment5.params=
+comment5.target=int\ getBreedingAge()
+comment6.params=
+comment6.target=int\ getMaxLitterSize()
+comment7.params=
+comment7.target=double\ getBreedingProbability()
+numComments=8
