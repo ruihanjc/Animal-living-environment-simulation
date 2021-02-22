@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Disease
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Disease\ here.\r\n\r\n\ @author\ RuiHan\ Ji\ Chen\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Disease()
+comment2.params=infectedAnimal
+comment2.target=void\ infecting(Animal)
+comment3.params=infectedAnimal
+comment3.target=void\ killing(Animal)
+numComments=4
