@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Rabbit
+comment0.text=\n\ A\ simple\ model\ of\ a\ rabbit.\n\ Rabbits\ age,\ move,\ breed,\ and\ die.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ 2016.02.29\ (2)\n
+comment1.params=randomAge\ field\ location
+comment1.target=Rabbit(boolean,\ Field,\ Location)
+comment2.params=newActors
+comment2.target=void\ act(java.util.List)
+comment2.text=\n\ This\ is\ what\ the\ rabbit\ does\ most\ of\ the\ time\ -\ it\ runs\n\ around.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age.\n\ @param\ newActors\ A\ list\ to\ return\ newly\ born\ rabbits.\n
+numComments=3
