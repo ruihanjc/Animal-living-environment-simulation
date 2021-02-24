@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\n\ A\ class\ representing\ shared\ characteristics\ of\ animals.\n\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ 2016.02.29\ (2)\n
+comment1.params=field\ location
+comment1.target=Plant(Field,\ Location)
+comment2.params=
+comment2.target=int\ getMaxAge()
+comment2.text=\n\ Make\ this\ animal\ act\ -\ that\ is\:\ make\ it\ do\n\ whatever\ it\ wants/needs\ to\ do.\n\ @param\ newAnimals\ A\ list\ to\ receive\ newly\ born\ animals.\n
+comment3.params=
+comment3.target=int\ getBreedingAge()
+comment4.params=
+comment4.target=int\ getMaxLitterSize()
+comment5.params=plants\ plantClass
+comment5.target=void\ giveBirth(java.util.List,\ java.lang.Class)
+comment6.params=actorType
+comment6.target=int\ breed(java.lang.Class)
+comment7.params=actorType
+comment7.target=boolean\ canBreed(java.lang.Class)
+numComments=8
