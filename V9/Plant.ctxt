@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\n\ A\ class\ representing\ shared\ characteristics\ of\ animals.\n\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ 2016.02.29\ (2)\n
+comment1.params=randomAge\ field\ location
+comment1.target=Plant(boolean,\ Field,\ Location)
+comment2.params=plants\ plantClass
+comment2.target=void\ giveBirth(java.util.List,\ java.lang.Class)
+comment3.params=actorType
+comment3.target=int\ multiply(java.lang.Class)
+comment4.params=actorType
+comment4.target=boolean\ canMultiply(java.lang.Class)
+numComments=5
