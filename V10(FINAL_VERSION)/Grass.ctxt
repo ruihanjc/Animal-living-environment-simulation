@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Grass
+comment0.text=\r\n\ A\ simple\ model\ of\ a\ rabbit.\r\n\ Rabbits\ age,\ move,\ breed,\ and\ die.\r\n\ \r\n\ @author\ Chi\ Bene\ Chen\ and\ Rui\ Han\ Ji\ Chen\r\n\ @version\ 2016.02.29\ (2)\r\n
+comment1.params=randomAge\ field\ location
+comment1.target=Grass(boolean,\ Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ grass\ at\ location\ in\ field.\r\n\ \r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n\ @param\ boolean\ Whether\ it\ has\ an\ random\ age\ or\ not\r\n
+comment2.params=newGrass
+comment2.target=void\ act(java.util.List)
+comment2.text=\r\n\ This\ is\ what\ the\ grass\ does,\ it\ grows,\ multiplies\ and\ dies,\ nothing\ special\ and\ nothing\ more\r\n\ @param\ newGrass\ A\ list\ to\ return\ newly\ born\ wolfs.\r\n
+comment3.params=
+comment3.target=int\ getMaxAge()
+comment3.text=\r\n\ Returns\ the\ maximum\ age\r\n
+comment4.params=
+comment4.target=int\ getMultiplyAge()
+comment4.text=\r\n\ Returns\ the\ age\ to\ multiply\r\n
+comment5.params=
+comment5.target=int\ getMaxLitterSize()
+comment5.text=\r\n\ Returns\ the\ maximum\ number\ grass\ it\ will\ multiply\r\n
+comment6.params=
+comment6.target=double\ getMultiplyProbability()
+comment6.text=\r\n\ Returns\ the\ probability\ of\ multiplying\r\n
+numComments=7

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\r\n\ A\ class\ representing\ shared\ characteristics\ of\ plants.\r\n\r\n\ @author\ Chi\ Bene\ Chen\ and\ Rui\ Han\ Ji\ Chen\r\n\ @version\ 2016.02.29\ (2)\r\n
+comment1.params=randomAge\ field\ location
+comment1.target=Plant(boolean,\ Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ plant\ at\ location\ in\ field.\r\n\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field\r\n\ @param\ boolean\ If\ random\ age\ or\ not\r\n
+comment2.params=plants\ plantClass
+comment2.target=void\ multiplyActor(java.util.List,\ java.lang.Class)
+comment2.text=\r\n\ Multiplies\ a\ plant.\r\n
+comment3.params=actorType
+comment3.target=int\ multiply(java.lang.Class)
+comment3.text=\r\n\ Calculates\ the\ number\ of\ plants\ it\ will\ multiply.\r\n
+comment4.params=actorType
+comment4.target=boolean\ canMultiply(java.lang.Class)
+comment4.text=\r\n\ Checks\ the\ condiction\ whether\ the\ plant\ is\ able\ to\ multiply\ or\ not;\r\n
+numComments=5
