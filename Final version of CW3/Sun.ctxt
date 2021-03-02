@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Sun
+comment0.text=\r\n\ THIS\ CLASS\ REPRESENT\ A\ SUNNY\ WEATHER.\r\n\ CURRETNLY\ ONLY\ REPRESENT\ A\ TYPE\ BUT\ HAVE\ NO\ METHOD\r\n\r\n\ @author\ CHI\ BENE\ CHEN\r\n\ @version\ 2021/3/2\r\n
+comment1.params=
+comment1.target=Sun()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Sun\r\n\ nothing\ here\ currently...\r\n
+numComments=2

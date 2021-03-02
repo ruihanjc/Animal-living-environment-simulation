@@ -7,7 +7,7 @@ import java.util.Random;
  * 
  * @author David J. Barnes and Michael Kölling
  * @edited Chi Bene Chen and Rui Han Ji Chen
- * @version 2016.02.29 (2)
+ * @version 2021/3/2
  */
 public abstract class Animal extends Actor{
     private final boolean isFemale;
@@ -133,6 +133,9 @@ public abstract class Animal extends Actor{
                 Actor prey = (Actor)actor;
                 if(FoodChain.isRelationExist(this, prey)){
                     if(prey.isAlive()){
+                        System.out.println(
+                        //this.getClass().getName() +
+                        "  eat  " + prey.getClass().getName());
                         prey.setDead();
                         addFoodLevel(getFoodValue());
                         Location where  = new Location(foodLoc.getRow(),foodLoc.getCol(),1);

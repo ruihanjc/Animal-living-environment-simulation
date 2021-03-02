@@ -89,7 +89,7 @@ public class Simulator{
         new FoodChain();
         
         //Weather and time
-        currentWeather = new Weather();
+        currentWeather = new Weather(0);
         timeCount = new Time();
         timeCount.updateTime(0);
         
@@ -152,7 +152,7 @@ public class Simulator{
      * will perform different kind of actions.
      */
     private void stepAct(){
-        if(showGrass && currentWeather.getIsRain()){     //If is rainning and there are grasses in the simulation
+        if(showGrass && currentWeather instanceof Rain){     //If is rainning and there are grasses in the simulation
             List<Location> locations = field.getAllFreeLocations(0);
             for(Location l :locations){
                 if(rand.nextDouble() <= GRASS_CREATION_PROBABILITY) {
@@ -171,7 +171,7 @@ public class Simulator{
                     a.act(newActors);
                 }
                 if(actor instanceof Plant){
-                    if(currentWeather.getIsRain()){
+                    if(currentWeather instanceof Rain){
                         Plant p = (Plant) actor;
                         p.act(newActors);
                     }

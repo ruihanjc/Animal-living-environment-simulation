@@ -5,7 +5,7 @@ import java.util.List;
  * Wolfs age, move, eat sheeps, and die.
  * 
  * @author Chi Bene Chen and Rui Han Ji Chen
- * @version 2016.02.29 (2)
+ * @version 2021/3/2
  */
 public class Wolf extends Animal{
     private static final int MULTIPLY_AGE = 15;

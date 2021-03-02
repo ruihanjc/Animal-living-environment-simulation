@@ -2,10 +2,10 @@ import java.util.List;
 
 /**
  * A simple model of a Tiger.
- * Tigers age, move, eat rabbits, and die.
+ * Tigers age, move, eat cows, and die.
  * 
  * @author Chi Bene Chen and Rui Han Ji Chen
- * @version 2016.02.29 (2)
+ * @version 2021/3/2
  */
 public class Tiger extends Animal{
     private static final int MULTIPLY_AGE = 10;
@@ -15,7 +15,7 @@ public class Tiger extends Animal{
     private static final double MULTIPLY_PROBABILITY = 0.14;
     // The maximum number of births.
     private static final int MAX_LITTER_SIZE = 2;
-    // The food value of a single rabbit. In effect, this is the
+    // The food value of a single cow. In effect, this is the
     // number of steps a Tiger can go before it has to eat again.
     private static final int FOOD_VALUE = 4;
     // A shared random number generator to control breeding.    
@@ -39,7 +39,7 @@ public class Tiger extends Animal{
 
     /**
      * This is what the Tiger does most of the time: it hunts for
-     * rabbits. In the process, it might breed, die of hunger,
+     * cows. In the process, it might breed, die of hunger,
      * or die of old age.
      * @param newTigers A list to return newly born Tigers.
      */

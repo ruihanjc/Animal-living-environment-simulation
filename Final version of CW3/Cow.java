@@ -5,16 +5,16 @@ import java.util.List;
  * Cows age, move, breed, and die.
  * 
  * @author Chi Ben Chen and Rui Han Ji Chen
- * @version 2016.02.29 (2)
+ * @version 2021/3/2
  */
 public class Cow extends Animal{
     private static final int MULTIPLY_AGE = 4;
-    // The age to which a snake can live.
+    // The age to which a cow can live.
     private static final int MAX_AGE = 30;
-    // The likelihood of a snake breeding.
+    // The likelihood of a cow breeding.
     private static final double MULTIPLY_PROBABILITY = 0.35;
     // The maximum number of births.
-    private static final int MAX_LITTER_SIZE = 4;
+    private static final int MAX_LITTER_SIZE = 2;
     // The food value of a single Cow. In effect, this is the
     // number of steps a Cow can go before it has to eat again.
     private static final int FOOD_VALUE = 9;
@@ -42,7 +42,7 @@ public class Cow extends Animal{
      */
     @Override
     public void act(List<Actor> newActors){
-        incrementAge();
+        super.incrementAge();
         incrementHunger();
         if(isAlive()){
             multiplyActor(newActors, this.getClass());

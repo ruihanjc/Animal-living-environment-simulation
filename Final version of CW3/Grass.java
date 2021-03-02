@@ -5,7 +5,7 @@ import java.util.List;
  * Rabbits age, move, breed, and die.
  * 
  * @author Chi Bene Chen and Rui Han Ji Chen
- * @version 2016.02.29 (2)
+ * @version 2021/3/2
  */
 public class Grass extends Plant {
     private static final int MULTIPLY_AGE = 8;

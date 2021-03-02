@@ -4,12 +4,12 @@ import java.util.List;
  * Lions age, move, eat cows, and die.
  * 
  * @author Chi Bene Chen and Rui Han Ji Chen
- * @version 2016.02.29 (2)
+ * @version 2021/3/2
  */
 public class Lion extends Animal{
     private static final int MULTIPLY_AGE = 8;
     // The age to which a snake can live.
-    private static final int MAX_AGE = 70;
+    private static final int MAX_AGE = 60;
     // The likelihood of a snake breeding.
     private static final double MULTIPLY_PROBABILITY = 0.14;
     // The maximum number of births.

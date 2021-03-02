@@ -4,7 +4,7 @@ import java.util.List;
  * Sheep's age, move, breed, and die.
  * 
  * @author Chi Bene Chen and Rui Han Ji Chen
- * @version 2016.02.29 (2)
+ * @version 2021/3/2
  */
 public class Sheep extends Animal {
     private static final int MULTIPLY_AGE = 4;

@@ -1,17 +1,18 @@
 import java.util.List;
 import java.util.Random;
 /**
- * Write a description of class WeatherSimulator here.
+ * This class simulate the weather.
+ * object of this Class should only have one exist at the time.
+ * every time when weather changed, new object with random weather and duration should be created.
  *
  * @author Chi Bene Chen and Rui Han Ji Chen
- * @version (a version number or a date)
+ * @version 2021/3/2
  */
 public class Weather
 {
     private final static double PROBABILITY_OF_RAIN = 0.4;
     private final static double PROBABILITY_OF_SUN = 0.6;
     private int duration;
-    private boolean isRain;
     private final static int INITIAL_DURATION = 10;
     private final static boolean INITIAL_IsRain = false;
 
@@ -20,19 +21,22 @@ public class Weather
      */
     public Weather(){
         duration = duration();
-        isRain = isRain();
     }
     
+    public Weather(int duration){
+        this.duration = duration;
+    }
+
     /**
      * this method return a random boolean value that indicate whether next weather is sunny or rainny 
      */
-    public static boolean isRain()
+    public static Class decideWeatherType()
     {
         Random rand = Randomizer.getRandom();
         if(rand.nextDouble() <= PROBABILITY_OF_RAIN){
-            return true;
+            return Rain.class;
         }
-        return false;
+        return Sun.class;
     }
 
     /**
@@ -48,8 +52,14 @@ public class Weather
      */
     public Weather weatherAct(){
         duration -- ;
-        if(duration == 0){
-            return new Weather();         
+        if(duration <= 0){
+            try{
+                return (Weather)decideWeatherType().getDeclaredConstructor().newInstance();         
+            }
+            catch(Exception e){
+                System.out.println("error occur when create new Weather" + e);
+                return this;
+            }
         }
         return this;
     }
@@ -62,19 +72,9 @@ public class Weather
     }
 
     /**
-     * Returns if is raining or not
-     */
-    public boolean getIsRain(){
-        return isRain;
-    }
-    
-    /**
-     * Returns the string for the stats
+     * Returns the string of current Weather
      */
     public String getWeatherInText(){
-        if(isRain){
-            return "Rain";
-        }
-        return "Sunny";
+        return this.getClass().getName();
     }
 }

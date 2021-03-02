@@ -12,7 +12,7 @@ import java.util.Random;
  * 
  * @author David J. Barnes and Michael Kölling
  * @edited Chi Bene Chen and Rui Han Ji Chen
- * @version 2016.02.29
+ * @version 2021/3/2
  */
 public class Field{
     // A random number generator for providing random locations.
