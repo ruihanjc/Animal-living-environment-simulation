@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Time
+comment0.text=\n\ This\ is\ a\ time\ class\ which\ calculates\ the\ time\ and\ returns\ whether\ if\ is\ daytime\ or\ not\n\n\ @author\ Chi\ Bene\ Chen\ and\ Rui\ Han\ Ji\ Chen\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Time()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Time\n
+comment2.params=step
+comment2.target=void\ updateTime(int)
+comment2.text=\n\ It\ updates\ the\ time\ and\ calculates\ whether\ if\ is\ day\ or\ night\n\ @param\ int\ current\ steps,\n
+comment3.params=step
+comment3.target=int\ getTime(int)
+comment3.text=\n\ Returns\ the\ time\ with\ the\ given\ steps\n\ @param\ steps\n
+comment4.params=
+comment4.target=boolean\ getIsDay()
+comment4.text=\n\ Returns\ if\ is\ day\ or\ not\n
+comment5.params=
+comment5.target=java.lang.String\ getDay()
+comment5.text=\n\ Returns\ the\ text\ of\ day\ or\ night\n
+numComments=6
